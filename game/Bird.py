@@ -90,8 +90,14 @@ class Bird(pygame.sprite.Sprite):
         inputs = self.get_inputs(closest)  # Get input w.r.t. closest pipe
         _input = self.think(inputs)  # Should flap or not
 
+#region own
+        up = False
+        user_input = pygame.key.get_pressed()
+        if user_input[pygame.K_u]:
+            up = True
+#endregion
         # flap
-        if _input and not self.flap and self.rect.y > 0 and self.alive:
+        if up or (_input and not self.flap and self.rect.y > 0 and self.alive):
             self.flap = True
             self.vel = -7
         pass
