@@ -1,0 +1,53 @@
+Date : 2025-01-08 20:11:34
+Directory : c:\git\personal\FlappyNEAT
+Total : 19 files,  1213 codes, 189 comments, 299 blanks, all 1701 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Python   |         12 |        823 |        184 |        228 |      1,235 |
+| JSON     |          4 |        212 |          0 |          0 |        212 |
+| Markdown |          2 |        164 |          0 |         70 |        234 |
+| YAML     |          1 |         14 |          5 |          1 |         20 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                   |         19 |      1,213 |        189 |        299 |      1,701 |
+| . (Files)                                                           |          2 |        193 |         52 |         87 |        332 |
+| .github                                                             |          1 |         14 |          5 |          1 |         20 |
+| .github\workflows                                                   |          1 |         14 |          5 |          1 |         20 |
+| .obsidian                                                           |          4 |        212 |          0 |          0 |        212 |
+| game                                                                |          5 |        207 |         58 |         55 |        320 |
+| neat                                                                |          6 |        483 |         74 |        119 |        676 |
+| note                                                                |          1 |        104 |          0 |         37 |        141 |
++---------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                            | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\git\personal\FlappyNEAT\.github\workflows\codespell_and_ruff.yml | YAML     |         14 |          5 |          1 |         20 |
+| c:\git\personal\FlappyNEAT\.obsidian\app.json                       | JSON     |          1 |          0 |          0 |          1 |
+| c:\git\personal\FlappyNEAT\.obsidian\appearance.json                | JSON     |          1 |          0 |          0 |          1 |
+| c:\git\personal\FlappyNEAT\.obsidian\core-plugins.json              | JSON     |         30 |          0 |          0 |         30 |
+| c:\git\personal\FlappyNEAT\.obsidian\workspace.json                 | JSON     |        180 |          0 |          0 |        180 |
+| c:\git\personal\FlappyNEAT\README.md                                | Markdown |         60 |          0 |         33 |         93 |
+| c:\git\personal\FlappyNEAT\__main__.py                              | Python   |        133 |         52 |         54 |        239 |
+| c:\git\personal\FlappyNEAT\game\Bird.py                             | Python   |         89 |         25 |         21 |        135 |
+| c:\git\personal\FlappyNEAT\game\Ground.py                           | Python   |         13 |          2 |          5 |         20 |
+| c:\git\personal\FlappyNEAT\game\Pipe.py                             | Python   |         28 |          5 |          7 |         40 |
+| c:\git\personal\FlappyNEAT\game\globals.py                          | Python   |         23 |          2 |          7 |         32 |
+| c:\git\personal\FlappyNEAT\game\population.py                       | Python   |         54 |         24 |         15 |         93 |
+| c:\git\personal\FlappyNEAT\neat\gene.py                             | Python   |         39 |          9 |          9 |         57 |
+| c:\git\personal\FlappyNEAT\neat\geneh.py                            | Python   |         13 |          6 |          2 |         21 |
+| c:\git\personal\FlappyNEAT\neat\genome.py                           | Python   |        268 |         29 |         67 |        364 |
+| c:\git\personal\FlappyNEAT\neat\node.py                             | Python   |         34 |          9 |         10 |         53 |
+| c:\git\personal\FlappyNEAT\neat\population.py                       | Python   |         79 |         18 |         19 |        116 |
+| c:\git\personal\FlappyNEAT\neat\species.py                          | Python   |         50 |          3 |         12 |         65 |
+| c:\git\personal\FlappyNEAT\note\note.md                             | Markdown |        104 |          0 |         37 |        141 |
+| Total                                                               |          |      1,213 |        189 |        299 |      1,701 |
++---------------------------------------------------------------------+----------+------------+------------+------------+------------+

@@ -7,7 +7,7 @@ class Node:
         # Number in the network
         self.number = node
         # On Layer
-        self.layer = layer
+        self.layer = layer # 0-> input layer, 1 -> output layer $$$
         # final output to pass on
         self.output = 0
         # all genes coming to this node

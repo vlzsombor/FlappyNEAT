@@ -95,6 +95,7 @@ class Genome:
 
     # Random Mutations
     def mutate(self):
+        # initialization:
         if len(self.genes) == 0:
             self.add_gene()
 
@@ -153,6 +154,7 @@ class Genome:
 
         # calculate final outputs at last
         final_outputs = []
+        #it iterate through only output notes:
         for n in range(self.n_inputs, self.n_inputs + self.n_outputs):
             self.nodes[n].calculate()
             final_outputs.append(self.nodes[n].output)
