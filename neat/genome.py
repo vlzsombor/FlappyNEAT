@@ -116,13 +116,14 @@ class Genome:
         return None
 
     # Connect genes to get ready for output calculation
+    # sync between gene and genom object
     def connect_genes(self):
         for i in range(len(self.genes)):
             self.genes[i].in_node = self.get_node(self.genes[i].in_node.number)
             self.genes[i].out_node = self.get_node(self.genes[i].out_node.number)
 
         for i in range(len(self.nodes)):
-            self.nodes[i].in_genes.clear()
+            self.nodes[i].in_genes.clear() # $$$
 
         # Add in_genes
         for i in range(len(self.genes)):

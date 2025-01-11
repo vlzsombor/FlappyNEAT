@@ -110,6 +110,7 @@ __init__ (c:\git\personal\FlappyNEAT\game\population.py:20)
 
 
 WTFs:
+* how fitness is calculated??
 wtf is that graph ??
 ![[Pasted image 20250107114052.png]]
 
@@ -194,9 +195,38 @@ NEAT or genetic algorithms use "mutation and merging/etc" as optimization.
 
   
 0 =0.39166666666666666
-
 1 =0.8421052631578947
-
 2 =0.0125
-
 3 =-0.1375
+
+
+
+
+
+
+
+
+
+
+
+
+
+-0.922838921439954
+1.8011388502959025
+
+
+
+
+
+
+
+
+
+
+
+
+
+4 => -0.9187362314901741
+
+
+
