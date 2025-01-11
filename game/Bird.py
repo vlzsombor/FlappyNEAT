@@ -1,3 +1,4 @@
+import math
 import pygame
 
 from neat.genome import Genome
@@ -124,9 +125,14 @@ class Bird(pygame.sprite.Sprite):
 
     def think(self, inputs):
         should_flap = False
+        sigmoid = lambda x: 1 / (1 + math.exp(-x))
 
         # Get outputs from brain
-        outs = self.brain.get_outputs(inputs)
+        #outs = self.brain.get_outputs(inputs)
+        
+        outs =[0.5, sigmoid(inputs[2]*-0.922838921439954 + inputs[3]*1.8011388502959025)]
+
+        
         # use outputs to flap or not
         if outs[1] > outs[0]:
             should_flap = True
