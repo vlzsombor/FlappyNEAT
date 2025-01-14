@@ -1,8 +1,8 @@
 import pygame
 
 # Game
-win_width = 551
-win_height = 720
+win_width = 400
+win_height = 600
 
 pop_size = 50
 

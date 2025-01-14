@@ -187,8 +187,20 @@ NEAT or genetic algorithms use "mutation and merging/etc" as optimization.
 
 
 
+Raw node calculation:
+```
+think (c:\git\personal\FlappyNEAT\game\Bird.py:133)
+update (c:\git\personal\FlappyNEAT\game\Bird.py:92)
+update (c:\git\personal\FlappyNEAT\game\population.py:56)
+main (c:\git\personal\FlappyNEAT\__main__.py:173)
+menu (c:\git\personal\FlappyNEAT\__main__.py:231)
+<module> (c:\git\personal\FlappyNEAT\__main__.py:238)
 
 
+outs =[0.5, sigmoid(inputs[2]*-0.922838921439954 + inputs[3]*1.8011388502959025)]
+
+branch: raw_node
+```
 
 
 

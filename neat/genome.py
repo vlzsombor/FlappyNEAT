@@ -2,7 +2,7 @@ from neat.node import Node
 from neat.gene import Gene
 
 import random
-
+from game.globals import add_gene_chance, add_node_chance, mutate_gene_chance
 
 class Genome:
     def __init__(self, gh, c1=1.0, c2=1.0, c3=1.0):
@@ -99,12 +99,12 @@ class Genome:
         if len(self.genes) == 0:
             self.add_gene()
 
-        if random.random() < 0.8:
+        if random.random() < mutate_gene_chance:
             for i in range(len(self.genes)):
                 self.genes[i].mutate()
-        if random.random() < 0.08:
+        if random.random() < add_gene_chance:
             self.add_gene()
-        if random.random() < 0.02:
+        if random.random() < add_node_chance:
             self.add_node()
         pass
 
@@ -142,7 +142,7 @@ class Genome:
 
         # Connect genes (Clean references)
         self.connect_genes()
-
+ 
         # calculate layer wise
         for layer in range(2, self.gh.highest_hidden + 1):
             nodes_in_layer = []

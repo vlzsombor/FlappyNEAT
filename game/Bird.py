@@ -1,5 +1,6 @@
 import math
 import pygame
+import csv
 
 from neat.genome import Genome
 
@@ -128,9 +129,11 @@ class Bird(pygame.sprite.Sprite):
         sigmoid = lambda x: 1 / (1 + math.exp(-x))
 
         # Get outputs from brain
-        #outs = self.brain.get_outputs(inputs)
+        outs = self.brain.get_outputs(inputs)
         
-        outs =[0.5, sigmoid(inputs[2]*-0.922838921439954 + inputs[3]*1.8011388502959025)]
+        #outs =[0.5, sigmoid(inputs[2]*-0.922838921439954 + inputs[3]*1.8011388502959025)]
+        # with open("C:\\Users\\ZsomborVeres-Lakos\\Documents\\flappy_outputs.csv", 'a') as f:
+        #     f.write(str(outs[1]) + '\n')
 
         
         # use outputs to flap or not
